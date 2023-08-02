@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  bd{
+    display: static;
+    align-items: center;
+    justify-content: center;
+    padding:  10px;
+    min-height: 100vh;
+    background: palevioletred;
+  }
+  
+  fr
+  {
+      position:static;
+     
+      
+      margin-top: 15%; 
+      margin-left: 15%;
+      margin-right: 13%;
+      background: lightpink;
+      width: 60%;
+      height: auto;
+      padding: 50px;
+      border-radius: 10px;
+      box-shadow: 7px 7px 60px #000;
+      margin-bottom: 40vh;
+  
+  }
+  .heading{
+      margin:5%;
+  }
+  t{
+      width: 80%;
+      margin: 10%;
+      padding: 5%;
+      font-size: 20px;
+  }
+  d{
+    width: 50%
+  }
+  lii{
+      margin-bottom: 2%;
+  }

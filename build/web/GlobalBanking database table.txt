@@ -1,0 +1,44 @@
+create table account
+(
+	accno varchar(20),
+	custname varchar(20),
+	custfname varchar(20),
+	dob varchar(20),
+	gender varchar(20),
+	accopdate varchar(20),
+	address varchar(20),
+	contactno int
+);
+
+insert into account values ('A001', 'ADMIN', 'FADMIN', '01.01.2000', 'Male', '01.04.2023', 'JABALPUR', '12345');
+
+
+create table transactionbank
+(
+    accountno varchar(20),
+    ref varchar(20),
+    dotrans varchar(20),
+    transid varchar(20),
+    depamount int,
+    wdrwamount int,
+    netbal int
+
+);
+
+create table account
+(
+	accno varchar(20),
+	custname varchar(20),
+	custfname varchar(20),
+	dob varchar(20),
+	gender varchar(20),
+	accopdate varchar(20),
+	address varchar(20),
+	contactno int,
+        role varchar(20),
+        password varchar(20),
+        sques varchar(20),
+        sans varchar(20)
+);
+
+insert into account values ('A001', 'ADMIN', 'FADMIN', '01.01.2000', 'Male', '01.04.2023', 'JABALPUR', '12345', 'ADMIN', 'ADMINADMIN', 'BirthPlace', 'INDIA');
